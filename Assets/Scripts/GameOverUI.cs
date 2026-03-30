@@ -19,7 +19,7 @@ public class GameOverUI : MonoBehaviour
     }
     public void OnMenuButtonClick()
     {
-        Debug.Log("menu Button Clicked");
+        Debug.Log("Menu Button Clicked");
         gameManager.ChangeState(GameManager.GameState.Menu);
     }
 }
