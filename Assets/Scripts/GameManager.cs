@@ -104,7 +104,8 @@ public class GameManager : MonoBehaviour
         score += 1;
         scoreText.text = "Score: " + score;
     }
-
+    
+    //Triggers on game start
     private void TriggerGameStart()
     {
         Debug.Log("GameStart triggered");
@@ -121,6 +122,8 @@ public class GameManager : MonoBehaviour
         enemySpawner1.SetActive(true);
         enemySpawner2.SetActive(true);
     }
+
+    //Triggers on game over
     private void TriggerGameOver()
     {
         Debug.Log("GameOver triggered");
@@ -132,6 +135,7 @@ public class GameManager : MonoBehaviour
         enemySpawner2.SetActive(false);
     }
 
+    //Triggers on change to menu
     private void TriggerMenu()
     {
         Debug.Log("Menu triggered");

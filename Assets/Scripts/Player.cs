@@ -37,6 +37,7 @@ public class Player : MonoBehaviour
             fireDelay -= Time.deltaTime;
         }
         
+        //Movement
         if (Input.GetKey(KeyCode.A))
         {
             transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
@@ -109,6 +110,10 @@ public class Player : MonoBehaviour
         playerHealth = playerMaxHealth;
     }
 
+    /// <summary>
+    /// Damages the player by the given amount
+    /// </summary>
+    /// <param name="damage"></param>
     private void takeDamage(float damage)
     {
         playerHealth -= damage;
