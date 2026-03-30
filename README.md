@@ -7,4 +7,4 @@ Touching enemies decreases your health. You will die at 0 health.
 The Game Over screen has a Retry option to replay the game and a Menu option to return to the menu screen.
 
 Link to GitHub: https://github.com/RydBar/GDT-110-Topic5-Assignment
-Link to Video:
+Link to Video: https://youtu.be/_YVGkYT9KLo
